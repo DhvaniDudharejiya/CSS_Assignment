@@ -1,0 +1,54 @@
+header,
+footer {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    margin-left: 50px;
+
+}
+a {
+    font-size: x-large;
+    color: aqua;
+    text-decoration: none;
+    padding-right: 10px;
+}
+a:hover{
+    color: red;
+}
+
+.Box_1 {
+    width: 100%;
+    display: flex;
+}
+
+.List_1 {
+    width: 50%;
+}
+
+.float_left {
+    width: 45%;
+    height: 61vh;
+    background-color: yellow;
+    float: left;
+    padding: 20px;
+}
+
+.float_right {
+    width: 45%;
+    height: 61vh;
+    background-color: yellow;
+    float: right;
+    padding: 20px;
+}
+
+#last_text {
+    margin-left: 30%;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}

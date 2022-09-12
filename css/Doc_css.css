@@ -1,0 +1,25 @@
+.page {
+    margin-left: 25%;
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    border: 1px solid black;
+    padding: 4px;
+}
+.text {
+    border: 1px solid black;
+    padding: 5px;
+}
+.label1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.label2{
+    margin-bottom: 10px;
+}
